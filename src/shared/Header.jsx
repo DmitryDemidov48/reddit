@@ -1,11 +1,11 @@
 import React from 'react';
-
-const Header = () => {
+import 'header.css'
+export const Header = () => {
     return (
         <div>
-            <h1>hell world 888888</h1>
+            <h1 className="example">кроули </h1>
         </div>
     );
 };
 
-export default Header;
+

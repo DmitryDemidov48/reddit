@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import Header from "./Header";
+import {Header} from "../shared/Header";
 
 
 window.addEventListener('load', () => {
-    ReactDOM.render(<Header/>,document.getElementById('root'));
+    ReactDOM.hydrate(<Header/> ,document.getElementById("root"));
 });
